@@ -1,0 +1,12 @@
+package com.student.dao;
+
+import java.util.List;
+
+import com.student.Student;
+
+public class StudentDao {
+	public List<Student> getAllUsers(){ 
+	      
+	     	      return userList; 
+	   } 
+}

@@ -1,0 +1,21 @@
+package com.student.services;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.student.dao.StudentDao;  
+@Path("/UserService") 
+
+public class StudentServices {  
+   StudentDao studentDao = new StudentDao();  
+   @GET 
+   @Path("/users") 
+   @Produces(MediaType.APPLICATION_XML) 
+   public List getUsers(){ 
+      return null; 
+   }  
+}
